@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ====GOOGLE FONT===== -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- ====FONT AWESOME===== -->
+    <script
+      src="https://kit.fontawesome.com/037c86d061.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ====EMAIL JS======= -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "LcZxFxavWdKh4Zoci",
+        });
+      })();
+    </script>
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">PORTFOLIO</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Sabarimani</span
+            ><br />
+            <p>
+              <span
+                class="auto-type"
+                style="color: red; font-weight: lighter; font-size: 35px;font-family: 'Roboto Mono', monospace;"
+              ></span>
+            </p>
+          </h1>
+          <a href="#" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/sabarimani-m"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/SabariM2002"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="mailto:sabarijeeva2002@gmail.com"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bx-envelope"></i
+          ></a>
+          <a
+            href="https://wa.me/7339506852"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="95"
+                href="./images/sabari1.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="./images/sabari2.jpeg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Sabarimani,</h2>
+            <p class="about__text">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A passionate and motivated Computer Science
+              Engineering graduate from University College of Engineering,
+              Villupuram, with a CGPA of 7.5. Coming from Villupuram and a
+              nuclear family, I have always been driven by a strong interest in
+              technology and software development. I specialize in full-stack
+              development, with skills in HTML, CSS, JavaScript, Bootstrap for
+              the frontend and Java, Spring Boot, and MySQL for the backend. As
+              a fresher, I am eager to learn, adapt, and contribute to
+              innovative projects while enhancing my technical expertise. I am
+              looking forward to opportunities that will allow me to apply my
+              knowledge, grow as a developer, and be a valuable part of a
+              dynamic team.
+            </p>
+            <br>
+            <a href="./images/Sabarimani_CV.pdf" download><button class="cv">Download CV</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Equipped with expertise in Full-Stack Development, specializing
+              in Java, Spring Boot, React.js, and MySQL. Passionate about
+              building scalable, high-performance applications with clean and
+              efficient code."
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-react skills__icon"></i>
+                <span class="skills__name">React</span>
+              </div>
+              <div class="skills__bar skills__react"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__container2">
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-java skills__icon"></i>
+                <span class="skills__name">JAVA</span>
+              </div>
+              <div class="skills__bar skills__java"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fas fa-seedling skills__icon"></i>
+                <span class="skills__name">SPRINGBOOT</span>
+              </div>
+              <div class="skills__bar skills__springboot"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-data skills__icon"></i>
+                <span class="skills__name">SQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-bootstrap skills__icon"></i>
+                <!-- <i class='bx bxs-data skills__icon'></i> -->
+                <span class="skills__name">BOOTSTRAP</span>
+              </div>
+              <div class="skills__bar skills__bootstrap"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <div href="" class="work__img">
+            <img
+              src="./images/course_register_logo.png"
+              height="600px"
+              width="500px"
+              alt=""
+            />
+
+            <div class="layer">
+              <h3>Course Registration System</h3>
+              <p>
+                Developed course Registration System using
+                java,springboot,Html,Css,JavaScript and MySQL
+              </p>
+              <a href="https://github.com/SabariM2002/course_registration_system" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div href="" class="work__img">
+            <img src="./images/amazon_logo.png" alt="" />
+
+            <div class="layer">
+              <h3>Amazon clone</h3>
+              <p>Developed Amazon clone using Html,Css,JavaScript</p>
+              <a href="https://github.com/SabariM2002/amazon_clone" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div href="" class="work__img">
+            <img src="./images/book.png" alt="" />
+            <div class="layer">
+              <h3>Book Recommendation System</h3>
+              <p>
+                Developed a book recommendation system using machine learning
+                and the KNN algorithm
+              </p>
+              <a href="https://github.com/SabariM2002/Book-Recommendation-System" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div href="" class="work__img">
+            <img src="./images/health.png" alt="" />
+            <div class="layer">
+              <h3>Collaboration Health Record</h3>
+              <p>
+                This collaborative health record system stores patient data in
+                an encrypted format using the AES algorithm to ensure privacy.
+              </p>
+              <a href="https://github.com/SabariM2002/Collaboration-Health-Record" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div href="" class="work__img">
+            <img src="./images/simple_blog.png" alt="" />
+            <div class="layer">
+              <h3>Simple Blog</h3>
+              <p>This is a responsive blog user interface built with HTML and Bootstrap 5. It includes a modern layout, image cards for blog posts, a sticky navigation bar.</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div href="" class="work__img">
+            <img src="./images/project3.jpg" alt="" />
+            <div class="layer">
+              <h3>UPCOMING PROJECT</h3>
+              <p>Project 5</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Reach Out</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="#" class="contact__form" onsubmit="sendMail(event)">
+            <input type="text" placeholder="Name" class="contact__input" id="name" autocomplete="off" required/>
+            <input type="email" placeholder="Email" class="contact__input" id="email" autocomplete="off" required/>
+            <textarea
+              name=""
+              id="subject"
+              cols="0"
+              rows="10"
+              class="contact__input"
+              placeholder="Message here..."
+              autocomplete="off"
+              required
+            ></textarea>
+            <button type="submit"class="contact__button button">Send</button>
+        
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">SABARIMANI</p>
+      <div class="footer__social">
+        <a href="https://wa.me/7339506852" class="footer__icon" target="_blank"
+          ><i class="bx bxl-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sabarimani-m"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/SabariM2002"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; Sabarimani. All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== TYPED JS =====-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="./index.js"></script>
+  </body>
+</html>
